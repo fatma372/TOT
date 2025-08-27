@@ -36,10 +36,6 @@ const trainees = [
     image: "./imgs/ebrahim-sabbaq.jpg",
     message:" مش هقول دلوقتي..",
     size:Math.random()*60+61  },{
-    name:"د. أحمد جمال عبدالناصر", 
-    image: "./imgs/ahmed g.jpg",
-    message:" مش هقول دلوقتي..",
-    size:Math.random()*60+61  },{
     name: "المستشار. محمود زكي", 
     image: "./imgs/judge-m-z-g.jpg",
     message:" مش هقول دلوقتي..",
@@ -66,6 +62,16 @@ const trainees = [
     name:"اللواء ابراهيم", 
     image: "./imgs/ebraheem.jpg",
     message:" مش هقول دلوقتي..",
+    size:Math.random()*60+61  },
+    {
+    name:"د. منال", 
+    image: "./imgs/manal.jpg",
+    message:" مش هقول دلوقتي..",
+    size:Math.random()*60+61  },
+    {
+    name:"د. رندا ", 
+    image: "./imgs/randa.jpg",
+    message:" مش هقول دلوقتي..",
     size:Math.random()*60+61  },{
     name:"د. علاء أحمد", 
     image: "./imgs/alaa-ahmed.jpg",
@@ -90,9 +96,10 @@ const trainees = [
     name:"د. كاميليا", 
     image: "./imgs/kamilia.jpg",
     message:" مش هقول دلوقتي..",
-    size:Math.random()*60+61  },{
-    name:"د. منال", 
-    image: "./imgs/manal.jpg",
+    size:Math.random()*60+61  }
+    ,{
+    name:"د. أحمد جمال عبدالناصر", 
+    image: "./imgs/ahmed g.jpg",
     message:" مش هقول دلوقتي..",
     size:Math.random()*60+61  },{
     name:"د. نجلاء", 
@@ -101,10 +108,6 @@ const trainees = [
     size:Math.random()*60+61  },{
     name:"د. أحمد جمال", 
     image: "./imgs/ahmed g.jpg",
-    message:" مش هقول دلوقتي..",
-    size:Math.random()*60+61  },{
-    name:"د. دندا ", 
-    image: "./imgs/randa.jpg",
     message:" مش هقول دلوقتي..",
     size:Math.random()*60+61  },{
     name:"د. هيام", 
@@ -209,7 +212,7 @@ function setupEventListeners() {
     const match = trainees.find(t => t.name.includes(searchQuery));
     if (match) {
       openModal(match);
-    }else if(searchQuery =="mzg90"){
+    }else if(searchQuery == "mzg90"){
       openModal(mgz);
     }
   });
@@ -225,9 +228,6 @@ function setupEventListeners() {
 
 }
 
-// form search by trainer
-
-
 
 // تهيئة التطبيق
 function initApp() {
@@ -236,5 +236,5 @@ function initApp() {
 }
 
 
-// بدء التطبيق عند تحميل الصفحة
+// start app
 document.addEventListener('DOMContentLoaded', initApp);

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Arabic:wght@100..800&display=swap');
 :root {
      --bg: #0b1020;  
   --card: #141a31;  
@@ -30,12 +31,11 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 30px;
+    font-family: "Playpen Sans Arabic", cursive;  padding: 30px;
   background: var(--dark-bg);
   color: var(--text-primary);
   direction: rtl;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .container {
@@ -52,7 +52,7 @@ header {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 1.9rem;
   color: var(--primary-color);
   margin-bottom: 15px;
   position: relative;
@@ -63,15 +63,15 @@ h1:after {
   content: '';
   position: absolute;
   bottom: -10px;
-  right: 0;
-  width: 60%;
+  right: -3px;
+  width: 70%;
   height: 3px;
   background: var(--accent-color);
-  border-radius: 2px;
+  border-radius: 50px;
 }
 
 .subtitle {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--text-secondary);
   max-width: 600px;
   margin: 15px auto 0;
@@ -235,7 +235,7 @@ form {
 }
 
 .modal {
-  width: min(800px, 92vw);
+  width: min(700px, 90vw);
   background: var(--dark-card);
   border-radius: var(--border-radius);
   overflow: hidden;
@@ -258,12 +258,14 @@ form {
   align-items: center;
   justify-content: center;
   padding: 30px;
+
 }
 
 .modal .imageCol img {
-  width: 100%;
-  height: 100%;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
+  object-position: center;
   display: block;
   border-radius: 50%;
   border: 5px solid var(--dark-card);
