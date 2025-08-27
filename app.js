@@ -36,7 +36,7 @@ const trainees = [
     image: "./imgs/ebrahim-sabbaq.jpg",
     message:" مش هقول دلوقتي..",
     size:Math.random()*60+61  },{
-    name: "المستشار. محمود زكي", 
+    name: "المستشار. محمود جمعة", 
     image: "./imgs/judge-m-z-g.jpg",
     message:" مش هقول دلوقتي..",
     size:Math.random()*60+71  },{
