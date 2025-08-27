@@ -24,10 +24,6 @@ const trainees = [
     image: "./imgs/doaa m.jpg",
     message:" مش هقول دلوقتي..",
     size:Math.random()*60+61  },{
-    name: "المستشار. أحمد عبيد", 
-    image: "./imgs/ahmed-ebieda.jpg",
-    message:" مش هقول دلوقتي..",
-    size:Math.random()*60+61  },{
     name: " د. علا أحمد", 
     image: "./imgs/ola mahdy.jpg",
     message:" مش هقول دلوقتي..",
@@ -45,6 +41,16 @@ const trainees = [
     message:" مش هقول دلوقتي..",
     size:Math.random()*60+61  },
     {
+    name: "المستشار. أحمد عبيد", 
+    image: "./imgs/ahmed-ebieda.jpg",
+    message:" مش هقول دلوقتي..",
+    size:Math.random()*60+61  },
+    {
+    name:"المستشارة نورا رمضان", 
+    image: "./imgs/n-r.jpg",
+    message:" مش هقول دلوقتي..",
+    size:Math.random()*60+61  },
+    {
     name: "م. فاطمة أكرم", 
     image: "./imgs/toota.jpg",
     message:"Don't Stop Until feel so proud. ",
@@ -53,10 +59,6 @@ const trainees = [
     name:"د. شريف صلاح الدين",
     name:"د. إلهام السواح", 
     image: "./imgs/e-s.jpg",
-    message:" مش هقول دلوقتي..",
-    size:Math.random()*60+61  },{
-    name:"المستشارة نورا رمضان", 
-    image: "./imgs/n-r.jpg",
     message:" مش هقول دلوقتي..",
     size:Math.random()*60+61  },{
     name:"اللواء ابراهيم", 
@@ -133,7 +135,7 @@ const trainees = [
 ];
 
 const mgz={
-    name:"المستشار محمود زكي ", 
+    name:"المستشار محمود جمعة ", 
     image: "./imgs/z0709.jpg",
     message:" مش هقول دلوقتي..",
     size:Math.random()*60+81
