@@ -24,7 +24,7 @@ const trainees = [
     image: "./imgs/doaa m.jpg",
     message:" مش هقول دلوقتي..",
     size:Math.random()*60+61  },{
-    name: "المستشار. أحمد عبيدة", 
+    name: "المستشار. أحمد عبيد", 
     image: "./imgs/ahmed-ebieda.jpg",
     message:" مش هقول دلوقتي..",
     size:Math.random()*60+61  },{
@@ -40,7 +40,7 @@ const trainees = [
     image: "./imgs/judge-m-z-g.jpg",
     message:" مش هقول دلوقتي..",
     size:Math.random()*60+71  },{
-    name: "المستشار. فاروق عبيدة", 
+    name: "المستشار. فاروق عبيد", 
     image: "./imgs/farouq.jpg",
     message:" مش هقول دلوقتي..",
     size:Math.random()*60+61  },
@@ -99,7 +99,7 @@ const trainees = [
     size:Math.random()*60+61  }
     ,{
     name:"د. أحمد جمال عبدالناصر", 
-    image: "./imgs/ahmed g.jpg",
+    image: "./imgs/ahmed-g-a.jpg",
     message:" مش هقول دلوقتي..",
     size:Math.random()*60+61  },{
     name:"د. نجلاء", 
