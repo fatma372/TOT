@@ -56,18 +56,18 @@ const trainees = [
     message:"Don't Stop Until feel so proud. ",
     size:Math.random()*60+61  },
     {
-    name:"د. شريف صلاح الدين",
-    name:"د. إلهام السواح", 
-    image: "./imgs/e-s.jpg",
-    message:" مش هقول دلوقتي..",
-    size:Math.random()*60+61  },{
     name:"اللواء ابراهيم", 
     image: "./imgs/ebraheem.jpg",
     message:" مش هقول دلوقتي..",
     size:Math.random()*60+61  },
-    {
+        {
     name:"د. منال", 
     image: "./imgs/manal.jpg",
+    message:" مش هقول دلوقتي..",
+    size:Math.random()*60+61  },
+    {
+    name:"د. إلهام السواح", 
+    image: "./imgs/e-s.jpg",
     message:" مش هقول دلوقتي..",
     size:Math.random()*60+61  },
     {
