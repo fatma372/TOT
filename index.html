@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TOT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./imgs/tot.jpg">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>متميزي TOT</h1>
+            <p class="subtitle">
+                ✨
+                كنتم وستظلون داعم قوي ومميز في كل الخطوات ✨
+
+            </p>
+        </header>
+        <form class="trainee-form">
+            <input class="search-input" list="names" type="text" id="searchInput" placeholder="ابحث عن متدرب">
+            <button class="search-btn" type="submit" id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <datalist id="names">
+                <option value="د. شريف صلاح الدين">
+                <option value="د. أحمد قدوس">
+                <option value="م. فاطمة أكرم">
+                <option value="د. محمد دوا">
+                <option value="د. أحمد سالم">
+                <option value="د. دعاء معوض">
+                <option value="المستشار. أحمد عبيدة">
+                <option value="د. علا أحمد">
+                <option value="د. إبراهيم السباق">
+                <option value="د. أحمد جمال عبدالناصر">
+                <option value="المستشار. محمود زكي">
+                <option value="المستشار. فاروق عبيدة">
+                <option value="د. إلهام السواح">
+                <option value="المستشارة نورا رمضان">
+                <option value="اللواء ابراهيم">
+                <option value="د. علاء أحمد">
+                <option value="د. حنان أحمد">
+                <option value="د. مصطفى المشد">
+                <option value="د. محمد بدوي">
+                <option value="د. عنان">
+                <option value="د. كاميليا">
+                <option value="د. منال">
+                <option value="د. نجلاء">
+                <option value="د. أحمد جمال">
+                <option value="د. رندا">
+                <option value="د. هيام">
+                <option value="د. محمد غزال">
+                <option value="د. راشد">
+                <option value="د. وائل">
+                <option value="د. هدى">
+            </datalist>
+        </form>
+        <div class="grid" id="grid"></div>
+
+        <div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-label="تفاصيل المتدرب">
+            <div class="modal">
+                <button class="close" id="closeBtn" aria-label="إغلاق">×</button>
+                <div class="imageCol" id="modalImgCol">
+                    <img src="" alt="صورة المتدرب" id="modalImage">
+                </div>
+                <div class="content">
+                    <h2 id="modalName"></h2>
+                    <p id="modalMessage"></p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>جميع الحقوق محفوظة 2025 &copy;.</p>
+            <p dir="ltr">Dveloped by: <a class="myLink" href="https://wa.me/201004784403">Fatma Akram.</a></p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
