@@ -17,7 +17,7 @@
   --dark-card: #1e1e1e;
   --dark-border: #333;
   --text-primary: #e0e0e0;
-  --text-secondary: #a0a0a0;
+  --text-secondary: #b2b0b0;
   --transition-speed: 0.3s;
   --border-radius: 12px;
   --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
@@ -47,6 +47,8 @@ body {
      background-image: url(./imgs/bg-tot.jpg);
     background-size: cover;
     background-position: center;
+    height: 150px;
+    border-radius: 20px;
 }
 header {
     background-color: #121212aa;
@@ -59,6 +61,7 @@ header {
 h1 {
   font-size: 1.9rem;
   color: var(--primary-color);
+  text-shadow: 1px 1px 5px rgb(8, 8, 8);
   margin-bottom: 15px;
   position: relative;
   display: inline-block;
@@ -71,7 +74,7 @@ h1:after {
   right: -3px;
   width: 70%;
   height: 3px;
-  background: var(--accent-color);
+  /* background: var(--accent-color); */
   border-radius: 50px;
 }
 
@@ -80,6 +83,9 @@ h1:after {
   color: var(--text-secondary);
   max-width: 600px;
   margin: 15px auto 0;
+  text-align: center;
+
+  padding: 0px 20px;
 }
 
 
