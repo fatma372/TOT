@@ -44,12 +44,12 @@ body {
   padding: 20px;
 }
 .header-container{
-     background-image: url(./imgs/tot.jpg);
+     background-image: url(./imgs/bg-tot.jpg);
     background-size: cover;
     background-position: center;
 }
 header {
-    background-color: #121212ac;
+    background-color: #121212aa;
   text-align: center;
   margin-bottom: 40px;
   padding: 30px 0;
