@@ -43,8 +43,13 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
-
+.header-container{
+     background-image: url(./imgs/tot.jpg);
+    background-size: cover;
+    background-position: center;
+}
 header {
+    background-color: #121212ac;
   text-align: center;
   margin-bottom: 40px;
   padding: 20px 0;
